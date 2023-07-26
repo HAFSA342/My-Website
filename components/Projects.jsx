@@ -1,5 +1,5 @@
 import React from "react";
-import CourseList from './CourseList';
+import CourseList from './ProjectList';
 import course1 from "../public/assets/projects/project1.jpg";
 import course2 from "../public/assets/projects/project2.jpg";
 import course3 from "../public/assets/projects/project3.jpg";
@@ -17,22 +17,22 @@ const Courses = () => {
           <CourseList
             title="Course 1"
             backgroundImg={course1}
-            courseUrl="/course1"
+            courseUrl="/project1"
           />
           <CourseList
             title="Course 2"
             backgroundImg={course2}
-            courseUrl="/course2"
+            courseUrl="/project2"
           />
           <CourseList
             title="Course 3"
             backgroundImg={course3}
-            courseUrl="/course3"
+            courseUrl="/project3"
           />
           <CourseList
             title="Course 4"
             backgroundImg={course4}
-            courseUrl="/course4"
+            courseUrl="/project4"
           />
         </div>
       </div>

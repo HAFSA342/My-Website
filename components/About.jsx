@@ -28,6 +28,9 @@ const About = () => {
             className="rounded-xl"
             src="../assets/about.jpg"
             alt="/"
+            height={100}
+            width={"auto"}
+
           />
         </div>
       </div>
