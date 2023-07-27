@@ -1,37 +1,37 @@
 import React from "react";
-import CourseList from './ProjectList';
-import course1 from "../public/assets/projects/project1.jpg";
-import course2 from "../public/assets/projects/project2.jpg";
-import course3 from "../public/assets/projects/project3.jpg";
-import course4 from "../public/assets/projects/project4.jpg";
+import ProjectList from './ProjectList';
+import project1 from "../public/assets/projects/project1.jpg";
+import project2 from "../public/assets/projects/project2.jpg";
+import project3 from "../public/assets/projects/project3.jpg";
+import project4 from "../public/assets/projects/project4.jpg";
 
 const Courses = () => {
   return (
-    <div id="courses" className="w-full">
+    <div id="projects" className="w-full">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
         <p className="text-xl tracking-widest uppercase text-[#5651ef]">
           Projects
         </p>
         <h2 className="py-4">What I've Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
-          <CourseList
-            title="Course 1"
-            backgroundImg={course1}
+          <ProjectList
+            title="Project 1"
+            backgroundImg={project1}
             courseUrl="/project1"
           />
-          <CourseList
-            title="Course 2"
-            backgroundImg={course2}
+          <ProjectList
+            title="Project 2"
+            backgroundImg={project2}
             courseUrl="/project2"
           />
-          <CourseList
-            title="Course 3"
-            backgroundImg={course3}
+          <ProjectList
+            title="Project 3"
+            backgroundImg={project3}
             courseUrl="/project3"
           />
-          <CourseList
-            title="Course 4"
-            backgroundImg={course4}
+          <ProjectList
+            title="Project 4"
+            backgroundImg={project4}
             courseUrl="/project4"
           />
         </div>

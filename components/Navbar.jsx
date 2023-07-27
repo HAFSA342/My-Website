@@ -20,10 +20,10 @@ const Navbar = () => {
 
   useEffect(() => {
     if (
-      router.asPath === "/course1" ||
-      router.asPath === "/course2" ||
-      router.asPath === "/course3" ||
-      router.asPath === "/course4"
+      router.asPath === "/project1" ||
+      router.asPath === "/project2" ||
+      router.asPath === "/project3" ||
+      router.asPath === "/project4"
     ) {
       setNavBg("transparent");
       setlinkColor("#ecf0f3");
@@ -71,9 +71,9 @@ const Navbar = () => {
             <Link href={"/#skills"}>
               <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
             </Link>
-            <Link href={"/#courses"}>
+            <Link href={"/#projects"}>
               <li className="ml-10 text-sm uppercase hover:border-b">
-                Courses
+                Projects
               </li>
             </Link>
             <Link href={"/#contact"}>
@@ -141,9 +141,9 @@ const Navbar = () => {
                   Skills
                 </li>
               </Link>
-              <Link href={"/#courses"}>
+              <Link href={"/#projects"}>
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
-                  Courses
+                  Projects
                 </li>
               </Link>
               <Link href={"/#contact"}>
