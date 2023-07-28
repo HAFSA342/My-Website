@@ -22,18 +22,21 @@ const Main = () => {
             qui distinctio?
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
+          <a href="https://www.linkedin.com/in/hafsa-sohail-98b569233/" target="_blank" rel="noopener noreferrer">
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
               <FaLinkedinIn />
-            </div>
+            </div></a>
+            <a href="https://github.com/HAFSA342" target="_blank" rel="noopener noreferrer">
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
-              <FaGithub />
-            </div>
+              <FaGithub/>
+            </div></a>
+            <a href="mailto:hafsasohail3420@gmail.com">
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
               <AiOutlineMail />
-            </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+            </div></a>
+            {/* <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
               <BsFillPersonLinesFill />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
