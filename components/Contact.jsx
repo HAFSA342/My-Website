@@ -35,15 +35,29 @@ const Contact = () => {
               <div>
                 <p className="uppercase pt-8">Connect With Me</p>
                 <div className="flex items-center justify-between py-4">
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <FaLinkedinIn />
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <FaGithub />
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <AiOutlineMail />
-                  </div>
+                  <a
+                    href="https://www.linkedin.com/in/hafsa-sohail-98b569233/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                      <FaLinkedinIn />
+                    </div>
+                  </a>
+                  <a
+                    href="https://github.com/HAFSA342"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                      <FaGithub />
+                    </div>
+                  </a>
+                  <a href="mailto:hafsasohail3420@gmail.com">
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                      <AiOutlineMail />
+                    </div>
+                  </a>
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <BsFillPersonLinesFill />
                   </div>

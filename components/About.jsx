@@ -9,11 +9,11 @@ const About = () => {
             About
           </p>
           <h2 className="py-4">
-            Our President{" "}
-            <span className="text-[#5651e5] underline">Dr. Arif Alvi</span>
+            WHO AM{" "}
+            <span className="text-[#5651e5] underline">I</span>
           </h2>
           <p className="py-2 text-gray-700 uppercase">
-            //President of the Islamic Republic of Pakistan
+            //Mern Stack Developer
           </p>
           <p className="py-2 text-gray-500">
            
