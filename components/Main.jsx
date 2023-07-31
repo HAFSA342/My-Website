@@ -24,7 +24,7 @@ const Main = () => {
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <a
               href="https://www.linkedin.com/in/hafsa-sohail-98b569233/"
-              target="_blank"
+              
               rel="noopener noreferrer"
             >
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
